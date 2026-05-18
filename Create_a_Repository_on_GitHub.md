@@ -4,14 +4,14 @@
 
 **2. Fill in:**
 
-- Repository name Devops (or any name you want)
+- Repository name git-github-guide (or any name you want)
 - Description Optional — short one-liner about this repo
 - Visibility Public (visible to all) or Private (only you)
 - Initialize Leave all checkboxes UNCHECKED — you have local files already
 
 **3. Click Create repository**
 
-**4. Copy the SSH URL shown — looks like:** `git@github.com:yourusername/Devops.git`
+**4. Copy the SSH URL shown — looks like:** `git@github.com:yourusername/git-github-guide`
 
 
 ## Write a README.md 

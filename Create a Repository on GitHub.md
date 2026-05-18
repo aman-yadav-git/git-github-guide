@@ -26,3 +26,4 @@ automatically.
 cd ~/Devops
 vim README.md
 ```
+We will push this file to GitHub in the next topic [git_push.md](https://github.com/aman-yadav-git/git-github-guide/blob/main/git_push.md#git-push-command)

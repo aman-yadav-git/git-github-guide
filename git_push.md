@@ -35,9 +35,15 @@ git commit -m “[descriptive message]”
 ```
 git branch
 ```
+```
+git branch -a
+```
 > switch to another branch and check it out into your working directory
 ```
 git checkout [branch-name]
+```
+```
+git checkout -b main origin/main 
 ```
 > merge the specified branch’s history into the current one
 ```
@@ -47,4 +53,67 @@ git merge [branch]
 ```
 git log
 ```
+```
+git log --oneline --all --graph
+```
+```
+git log --oneline
+```
+> show the commits on branchA that are not on branchB
+```
+git log branchB..branchA
+```
+show the commits that changed the file even across renames
+```
+git log --follow [file]
+```
+> show any object in Git in human-readable format
+```
+git show
+```
+> delete the file from project and stage the removal for commit
+```
+git rm [file]
+```
+> change an existing file path and stage the move
+```
+git mv [existing-path] [new-path]
+```
+> show all commit logs with indication of any paths that moved 
+```
+git log --stat -M
+```
+> add a git URL as an alias
+```
+git remote add [alias] [url]
+```
+> fetch down all the branches from that Git remote
+```
+git fetch [alias]
+```
+> merge a remote branch into your current branch to bring it up to date
+```
+git merge [alias]/[branch]
+```
+> Transmit local branch commits to the remote repository branch
+```
+git push [alias] [branch]
+```
+```
+git push origin main
+```
+> fetch and merge any commits from the tracking remote branch
+```
+git pull
+```
+
+
+
+
+
+
+
+
+
+
 

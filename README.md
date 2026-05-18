@@ -14,35 +14,7 @@ Git & GitHub Complete Guide
 >Pick a clean professional username — it will appear in all your repo URLs and on your profile README. e.g. github.com/yourusername
 
 
-**Install Git on Fedora**
-```
-sudo dnf install git -y
-```
-
-**Verify installation**
-```
-git --version
-```
-> Expected: git version 2.x.x
-
-
-## Set your identity (one-time setup)
-
-> Git attaches your name and email to every commit.
-```
-git config --global user.name "Your Name"
-git config --global user.email "your@email.com"
-```
-
-> Set default branch name to main
-```
-git config --global init.defaultBranch main
-```
-
-> Verify
-```
-git config --list
-```
+[Install Git on Fedora](https://github.com/aman-yadav-git/git-github-guide/blob/main/Install%20&%20Configure%20Git.md)
 
 ## SSH Key Setup
 

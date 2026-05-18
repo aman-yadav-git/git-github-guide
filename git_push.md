@@ -3,7 +3,7 @@
 ## Push Your Folder & file to GitHub
  
 **Run these commands from your home directory (~) so that the folder & file**
-> initialize an existing directory as a Git repository
+> Initialize an existing directory as a Git repository
 ``
 git init 
 ``
@@ -15,7 +15,7 @@ git status
 ```
 git add (file or folder)
 ```
-> unstage a file while retaining the changes in working directory
+> unstage a file while retaining the changes in the working directory
 ```
 git reset (file or folder)
 ```
@@ -23,7 +23,7 @@ git reset (file or folder)
 ```
 git diff
 ```
-> diff of what is staged but not yet commited
+> diff of what is staged but not yet committed
 ```
 git diff --staged
 ```
@@ -31,3 +31,20 @@ git diff --staged
 ```
 git commit -m “[descriptive message]”
 ```
+> list your branches. a * will appear next to the currently active branch
+```
+git branch
+```
+> switch to another branch and check it out into your working directory
+```
+git checkout [branch-name]
+```
+> merge the specified branch’s history into the current one
+```
+git merge [branch]
+```
+> show all commits in the current branch’s history
+```
+git log
+```
+

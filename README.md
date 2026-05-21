@@ -14,9 +14,9 @@ Git & GitHub Complete Guide
 >Pick a clean professional username — it will appear in all your repo URLs and on your profile README. e.g. github.com/yourusername
 
 
-[Install Git on Fedora](https://github.com/aman-yadav-git/git-github-guide/blob/main/Install%20&%20Configure%20Git.md)
+[Install Git on Fedora](https://github.com/aman-yadav-git/git-github-guide/blob/main/Install_%26_Configure_Git.md)
 
-[SSH Key Setup](https://github.com/aman-yadav-git/git-github-guide/tree/main)
+[SSH Key Setup](https://github.com/aman-yadav-git/git-github-guide/blob/main/SSH_Key_setup.md)
 
 [git_push_command](https://github.com/aman-yadav-git/git-github-guide/blob/main/git_push.md#git-push-command)
 
